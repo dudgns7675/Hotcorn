@@ -39,11 +39,11 @@ Deep-Learning-Powered Agriculture Drone for Plant Disease Detection
 * 모델파일이 준비되었다면 아래 명령어로 프로그램을 시작할 수 있습니다.  
 ```
 pip install -r requirements.txt  
-python ./codes/PUBG_Prediction.py
+python ./codes/guiexe.py
 ```
 
 * 아래 이미지와 같이 동작합니다.  
-  ![Image](./images/1.png)  
+  ![Main](./images/main.png)  
   분석결과를 표시하면 이상이 탐지된 위치에 마커가 표시됩니다.  
   마커에 마우스를 올리면 이상이 탐지된 GPS 좌표가, 클릭하면 탐지된 이미지를 표시합니다.  
   
