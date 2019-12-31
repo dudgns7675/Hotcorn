@@ -17,7 +17,7 @@ Deep-Learning-Powered Agriculture Drone for Plant Disease Detection
 [![Video](http://img.youtube.com/vi/xmiLOTW-y_8/0.jpg)](https://www.youtube.com/watch?v=xmiLOTW-y_8)  
 이미지를 클릭하면 프로젝트 시연 동영상으로 이동합니다.
 
-# Requirement  
+# Requirements  
 * 본 프로그램은 make 명령어를 이용해 컴파일하기 때문에 Linux, MacOS 환경에서 정상작동 합니다.  
   Windows 환경에서 사용하기 위해서는 프로그램 실행 전에 따로 컴파일을 해주어야 합니다.  
   
@@ -47,7 +47,7 @@ python ./codes/guiexe.py
   분석결과를 표시하면 이상이 탐지된 위치에 마커가 표시됩니다.  
   마커에 마우스를 올리면 이상이 탐지된 GPS 좌표가, 클릭하면 탐지된 이미지를 표시합니다.  
   
-# 메뉴 설명  
+# 메뉴설명  
 * Cache Clear : 드론으로부터 전송받은 동영상, 데이터 학습을 위해 전처리된 파일 등 임시파일을 모두 삭제합니다.  
 * Data Receive : 드론으로부터 영상 데이터를 전송받습니다.  
 * Data Analysis : 드론으로부터 전송받은 영상 데이터를 분석합니다.  
